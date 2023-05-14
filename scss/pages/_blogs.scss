@@ -150,6 +150,7 @@
   border-radius: 8px;
   background-color: c.$card-hover-bg;
   transition: 0.5s ease;
+  background: var(--card-bg);
   &:hover {
     box-shadow: c.$card-hover-shadow;
   }
@@ -226,7 +227,7 @@
     display: flex;
     align-items: center;
     letter-spacing: -0.28px;
-    color: rgba(0, 0, 0, 0.35);
+    color: var(--main-color);
 
     flex: none;
     order: 0;
@@ -250,7 +251,7 @@
 
     display: flex;
     align-items: center;
-    color: #000000;
+    color: var(--main-color);
 
     flex: none;
     order: 0;
@@ -266,7 +267,7 @@
     font-size: 14px;
     line-height: 22px;
 
-    color: rgba(0, 0, 0, 0.5);
+    color: var(--main-color);
 
     /* Inside auto layout */
 
@@ -277,18 +278,18 @@
   }
 }
 
-@media screen and (max-width:1067px) {
+@media screen and (max-width: 1067px) {
   .blog_card {
     width: 332px;
   }
 }
-@media screen and (max-width:1035px) {
+@media screen and (max-width: 1035px) {
   .blog_card {
     width: 322px;
   }
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width: 1024px) {
   .blog_card {
     width: 400px !important;
   }
@@ -299,7 +300,7 @@
   }
 }
 
-@media screen and (max-width:856px) {
+@media screen and (max-width: 856px) {
   .blog_card {
     width: 350px !important;
   }
@@ -310,7 +311,7 @@
   }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   .blog_card {
     width: 90% !important;
     margin: 0 auto;
@@ -326,7 +327,7 @@
     height: auto;
   }
 }
-@media screen and (max-width:500px) {
+@media screen and (max-width: 500px) {
   .blog_card {
     width: 95% !important;
     margin: 0 auto;

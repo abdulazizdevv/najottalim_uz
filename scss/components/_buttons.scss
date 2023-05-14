@@ -1,6 +1,7 @@
 .lot_of {
   display: flex;
   gap: 11.8px;
+  padding-top: 30px;
   p {
     font-family: "Lato";
     font-style: normal;
@@ -14,6 +15,9 @@
 .btn_view {
   background-color: transparent;
   border: none;
+  & img{
+    filter: var(--more-bg);
+  }
 }
 @media screen and (max-width: 935px) {
   .lot_of {

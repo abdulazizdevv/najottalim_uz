@@ -51,10 +51,10 @@
     align-items: center;
     letter-spacing: -0.64px;
 
-    color: #0f1826;
+    color: var(--fourth-color);
   }
   input {
-    background: #f7f7f5;
+    background: var(--main-bg);
     border-radius: 100px;
     border: none;
     padding: 15px;
@@ -73,7 +73,7 @@
 }
 .searchs {
   display: flex;
-  background: #f7f7f5;
+  background: var(--main-bg);
   width: 370px;
   height: 48px;
   border-radius: 100px;
@@ -152,10 +152,11 @@
   width: 543.5px;
   height: auto;
 
-  background: #f9f8f7;
+  background: var(--card-bg);
   border-radius: 4px;
   cursor: pointer;
   transition: 0.3s;
+  border: 1px solid white;
 
   &:hover {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -223,7 +224,7 @@
     align-items: center;
     letter-spacing: -0.56px;
 
-    color: #000000;
+    color: var(--main-color);
   }
   p {
     width: 270px;
@@ -241,10 +242,12 @@
     align-items: center;
     letter-spacing: -0.28px;
 
-    color: rgba(0, 0, 0, 0.7);
+    color: var(--main-color);
   }
 }
-
+.video_play{
+  background-image: url(../../images/pause.png);
+}
 .all {
   display: flex;
   //   flex-wrap: wrap;

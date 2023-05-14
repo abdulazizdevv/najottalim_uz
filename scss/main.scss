@@ -13,11 +13,56 @@
 @use "./pages/_courses.scss";
 @use "./pages/_home.scss";
 
-
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-body{
-    font-family: "Lato";
-    font-style: normal;
+body {
+  font-family: "Lato";
+  font-style: normal;
+}
+
+:root {
+  --main-bg: #fff;
+  --secondary-bg: #f9f8f7;
+  --main-color: #000;
+  --secondary-color: #fff;
+  --third-color: #607987;
+  --fourth-color: #0f1826;
+  --fifth-color: #607987;
+  --more-bg: invert(29%) sepia(47%) saturate(259%) hue-rotate(353deg)
+    brightness(92%) contrast(93%);
+  --video-btn: #fff;
+  --from-bg: #f9f8f7;
+  --from: #fff;
+  --card-bg: #f9f8f7;
+  --mode-btn: #f5f5f5;
+  --menu-btn: invert(0%) sepia(0%) saturate(16%) hue-rotate(309deg)
+    brightness(100%) contrast(107%);
+  --label: #00000059;
+  --placeholder: #c4c4c4;
+}
+
+.dark {
+  --main-bg: #021923;
+  --secondary-bg: #09111b;
+  --main-color: #fff;
+  --secondary-color: #000;
+  --third-color: #fff;
+  --fourth-color: #fff;
+  --fifth-color: #bbe7ff;
+  --more-bg: invert(90%) sepia(50%) saturate(1808%) hue-rotate(86deg)
+    brightness(94%) contrast(87%);
+  --video-btn: #021923;
+  --from-bg: #f9f8f73b;
+  --from: #021923;
+  --card-bg: #021923;
+  --mode-btn: #272727;
+  --menu-btn: invert(100%) sepia(0%) saturate(750%) hue-rotate(125deg)
+    brightness(106%) contrast(101%);
+  --label: #ba8d5b;
+  --placeholder: #fff;
+}
+
+body {
+  background: var(--main-bg);
 }

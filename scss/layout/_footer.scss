@@ -1,7 +1,7 @@
 footer {
     padding-top: 30px;
     padding-bottom: 50px;
-    background: #f9f8f7;
+    background: var(--secondary-color);
   }
   
   .footer {
@@ -20,7 +20,7 @@ footer {
       font-weight: 600;
       font-size: 14px;
       line-height: 22px;
-      color: #607987;
+      color: var(--third-color);
       width: 100%;
     }
   
@@ -30,7 +30,7 @@ footer {
       padding-top: 58px;
       font-size: 14px;
       line-height: 22px;
-      color: #607987;
+      color: var(--third-color);
     }
   }
   
@@ -101,7 +101,7 @@ footer {
   
   .footer-right a {
     text-decoration: none;
-    color: #607987;
+    color: var(--third-color);
     font-weight: 500;
     line-height: 22px;
     font-size: 17px;
@@ -172,7 +172,7 @@ footer {
       font-size: 18px;
       line-height: 22px;
       text-align: center;
-      color: #000000;
+      color: var(--main-color);
       align-items: center;
       justify-content: space-between;
       border: none;
@@ -265,7 +265,7 @@ footer {
         font-size: 14px;
         line-height: 22px;
         letter-spacing: -0.28px;
-        color: #607987;
+        color: var(--third-color);
         padding-top: 30px;
       }
     }

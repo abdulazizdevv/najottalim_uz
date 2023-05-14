@@ -128,7 +128,74 @@
 
         </section>
         <section id="comments">
+            <div class="container">
+                <h3 class="comment_title">Bitiruvchilarimizdan izohlar</h3>
+                <p class="comment_pr">
+                    Oʻquv kurslarimiz, ustozlar, qoʻlga kiritilgan bilim va koʻnikmalar,
+                    olingan natijalar haqida bitiruvchilarimizdan eshiting hamda ulardan
+                    kerakli tavsiyalar oling.
+                </p>
 
+                <div class="camment_videos">
+            
+                    <div class="cammited_card">
+                        <span class="reviews__item-view-video"><button
+                            class="reviews__item-icon reviews__item-icon--pause"></button>Videoni
+                        ko‘rish</span>
+                        <video class="" src="https://cdn.najottalim.uz/najottalim/short-videos/60a6ad55-4ca3-4d0f-8007-470b9cc39a88.mp4" muted=""></video>
+                        <div class="reviews__item-backdrop"></div>
+                        <div class="reviews__item-full-name">
+                            <h4 class="comment_card-date">25.01.2023</h4>
+                            <h4 class="comment_card-profesiya">Grafik dizayner</h4>
+                            <h4 class="comment_card-first-name">
+                                Shahzoda Sunnatillayeva
+                            </h4>
+                        </div>
+                    </div> 
+                    <div class="cammited_card">
+                        <span class="reviews__item-view-video"><button
+                            class="reviews__item-icon reviews__item-icon--pause"></button>Videoni
+                        ko‘rish</span>
+                        <video class="" src="https://cdn.najottalim.uz/najottalim/short-videos/d7ccc165-8afc-4294-92ed-02d9f1a6f7a2.mp4" muted=""></video>
+                        <div class="reviews__item-backdrop"></div>
+                        <div class="reviews__item-full-name">
+                            <h4 class="comment_card-date">25.01.2023</h4>
+                            <h4 class="comment_card-profesiya">Grafik dizayner</h4>
+                            <h4 class="comment_card-first-name">
+                                Shahzoda Sunnatillayeva
+                            </h4>
+                        </div>
+                    </div> 
+                    <div class="cammited_card">
+                        <span class="reviews__item-view-video"><button
+                            class="reviews__item-icon reviews__item-icon--pause"></button>Videoni
+                        ko‘rish</span>
+                        <video class="" src="https://cdn.najottalim.uz/najottalim/short-videos/6468a330-6e3e-4a85-a6fe-8c5a066ce6bc.mp4" muted=""></video>
+                        <div class="reviews__item-backdrop"></div>
+                        <div class="reviews__item-full-name">
+                            <h4 class="comment_card-date">25.01.2023</h4>
+                            <h4 class="comment_card-profesiya">Grafik dizayner</h4>
+                            <h4 class="comment_card-first-name">
+                                Shahzoda Sunnatillayeva
+                            </h4>
+                        </div>
+                    </div> 
+                    <div class="cammited_card">
+                        <span class="reviews__item-view-video"><button
+                            class="reviews__item-icon reviews__item-icon--pause"></button>Videoni
+                        ko‘rish</span>
+                        <video class="" src="https://cdn.najottalim.uz/najottalim/short-videos/3c5a9b58-5822-43aa-9603-87762de32bf9.mp4" muted=""></video>
+                        <div class="reviews__item-backdrop"></div>
+                        <div class="reviews__item-full-name">
+                            <h4 class="comment_card-date">25.01.2023</h4>
+                            <h4 class="comment_card-profesiya">Grafik dizayner</h4>
+                            <h4 class="comment_card-first-name">
+                                Shahzoda Sunnatillayeva
+                            </h4>
+                        </div>
+                    </div> 
+                </div>
+            </div>
         </section>
         <section id="form">
 
@@ -143,29 +210,8 @@
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="./slick-1.8.1/slick/slick.js"></script>
-    <script>
-        let elBtns = document.querySelector(".dark-light");
-        let theme = false;
-
-elBtns.addEventListener("click", (evt) => {
-  theme = !theme;
-  const newBg = theme ? "dark" : "light";
-  window.localStorage.setItem("theme", newBg);
-  newTheme();
-});
-
-let newTheme = () => {
-  if (window.localStorage.getItem("theme") == "dark") {
-    document.body.classList.add("dark");
-    elBtns.classList.add("btn")
-  } else {
-    document.body.classList.remove("dark");
-    elBtns.classList.remove("btn");
-  }
-};
-
-newTheme();
-    </script>
+   <script src="./js/carousel.js"></script>
+   <script src="./js/main.js"></script>
 </body>
 
 </html>

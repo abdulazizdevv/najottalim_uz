@@ -35,6 +35,30 @@
     margin: 0 auto;
   }
 }
+.lot_of {
+  display: flex;
+  gap: 11.8px;
+}
+.lot_of p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.32px;
+  color: #0eb182;
+}
+
+.btn_view {
+  background-color: transparent;
+  border: none;
+}
+
+#our_pref .left_card {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
 @font-face {
   font-family: "Lato";
   src: url("../../fonts/Lato/Lato-Thin.ttf") format("truetype");
@@ -98,4 +122,34 @@
   letter-spacing: -0.28px;
   color: #607987;
   margin-top: 16px;
+}
+
+@media screen and (max-width: 730px) {
+  .all_cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+#our_courses {
+  background: #f9f8f7;
+  margin-top: 54px;
+}
+#our_courses .facultet {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 56px;
+  letter-spacing: -0.64px;
+  color: #0f1826;
+  padding-top: 48px;
+}
+#our_courses .title {
+  padding-top: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #607987;
 }/*# sourceMappingURL=main.css.map */

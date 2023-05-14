@@ -339,6 +339,28 @@
 
 @media screen and (max-width: 750px) {
   .slider_prev {
+    left: 44%;
+  }
+  .slider_next {
+    left: 56%;
+  }
+  .comment_pr {
+    width: auto;
+    height: auto;
+    line-height: 24px;
+    margin-bottom: 52px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .slider_prev {
+    left: 41%;
+  }
+  .slider_next {
+    left: 55%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .slider_prev {
     left: 40%;
   }
   .slider_next {

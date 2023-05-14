@@ -89,6 +89,10 @@
     margin-top: 90px;
   }
 }
+.video_play {
+  background-image: url(../../images/pausesss.png);
+}
+
 #comments {
   padding: 40px 0;
   background-color: #fff;

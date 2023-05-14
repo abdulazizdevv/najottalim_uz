@@ -1,5 +1,3 @@
-
-
 // Hero
 
 #intro {
@@ -10,22 +8,22 @@
   width: 100%;
 }
 
-@media screen and (min-width:700px) {
-  #intro{
+@media screen and (min-width: 700px) {
+  #intro {
     background-image: url("../../images/hero-inner-bg.png"),
-    url("../../images/hero-bg.png");
-  background-repeat: no-repeat;
-  background-size: 120%, 55% !important;
-  background-position: bottom center, right 100px bottom !important;
+      url("../../images/hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: 120%, 55% !important;
+    background-position: bottom center, right 100px bottom !important;
   }
 }
-@media screen and (max-width: 1050px) and (min-width:700px) {
-  #intro{
+@media screen and (max-width: 1050px) and (min-width: 700px) {
+  #intro {
     background-image: url("../../images/hero-inner-bg.png"),
-    url("../../images/hero-bg.png");
-  background-repeat: no-repeat;
-  background-size: 150%, 75% !important;
-  background-position: bottom center, right -50px  bottom !important;
+      url("../../images/hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: 150%, 75% !important;
+    background-position: bottom center, right -50px bottom !important;
   }
 }
 .hero_title {
@@ -390,8 +388,8 @@
     }
 
     form {
-      margin-top: 32px !important;
-      margin-left: 40px !important;
+      padding-top: 32px;
+      padding-left: 40px ;
       label {
         font-family: "Lato";
         font-style: normal;
@@ -440,8 +438,8 @@
       }
       .btn_send {
         display: flex;
-        flex-direction: row;
-        align-items: flex-start;
+        // flex-direction: row;
+        // align-items: flex-start;
         padding: 13px 129.16px 13px 128.84px;
         margin-top: 24px;
         max-width: 368px;
@@ -468,20 +466,25 @@
   }
   .faq {
     width: 300px;
+    margin-left: 30px !important;
   }
+ 
   .form_bits {
-    margin: 3px !important;
+    margin: 0px !important;
+    width: 358px !important;
+  }
+  .form_bits_h2{
+    margin-left: 30px !important;
   }
   .btn_send {
     max-width: 298px !important;
+    margin-left: -25px !important;
   }
-}
-@media screen and (max-width: 545px) {
-  .faq {
-    margin-left: 45px !important;
+  .send{
+    margin-left: -25px;
   }
-  .form_bits {
-    margin: 3px !important;
+  .form_inp{
+    margin-left: -25px !important;
   }
   form {
     margin-top: 12px !important;
@@ -492,4 +495,3 @@
 // we,opwoevpwoev
 
 // comments style finished
-

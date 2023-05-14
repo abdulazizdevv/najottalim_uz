@@ -1837,8 +1837,8 @@ nav {
   padding-right: 5px;
 }
 #form .form_bits form {
-  margin-top: 32px !important;
-  margin-left: 40px !important;
+  padding-top: 32px;
+  padding-left: 40px;
 }
 #form .form_bits form label {
   font-family: "Lato";
@@ -1885,8 +1885,6 @@ nav {
 }
 #form .form_bits form .btn_send {
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
   padding: 13px 129.16px 13px 128.84px;
   margin-top: 24px;
   max-width: 368px;
@@ -1910,20 +1908,24 @@ nav {
   }
   .faq {
     width: 300px;
+    margin-left: 30px !important;
   }
   .form_bits {
-    margin: 3px !important;
+    margin: 0px !important;
+    width: 358px !important;
+  }
+  .form_bits_h2 {
+    margin-left: 30px !important;
   }
   .btn_send {
     max-width: 298px !important;
+    margin-left: -25px !important;
   }
-}
-@media screen and (max-width: 545px) {
-  .faq {
-    margin-left: 45px !important;
+  .send {
+    margin-left: -25px;
   }
-  .form_bits {
-    margin: 3px !important;
+  .form_inp {
+    margin-left: -25px !important;
   }
   form {
     margin-top: 12px !important;

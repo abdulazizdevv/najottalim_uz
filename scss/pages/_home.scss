@@ -1,43 +1,83 @@
 #our_pref {
-    .txt {
-      font-family: "Lato";
-      font-style: normal;
-      font-weight: 800;
-      font-size: 32px;
-      line-height: 40px;
-      color: #0f1826;
-    }
-    .all_cards{
-      display: flex;
-      gap: 60px;
-    }
-    .card_one {
-      display: flex;
-      gap: 47px;
-      img{
-          margin-top: -25px;
-      }
-    }
-    .all_txt {
-      margin-top: 38px;
-    }
-    .txt_p {
-      font-weight: 600;
-      font-size: 20px;
-      line-height: 30px;
-      letter-spacing: -0.4px;
-      color: #0f1826;
-    }
-    .txt_all {
-      max-width: 433px;
-      height: 80px;
-      font-weight: 400;
-      font-size: 14px;
-      line-height: 20px;
-      letter-spacing: -0.28px;
-      color: #607987;
-  
-      margin-top: 16px;
+  .left_card{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .txt {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 40px;
+    color: #0f1826;
+  }
+  .all_cards {
+    display: flex;
+    // flex-wrap: wrap;
+    gap: 60px;
+  }
+  .card_one {
+    display: flex;
+    gap: 47px;
+    img {
+      margin-top: -25px;
     }
   }
-  
+  .all_txt {
+    margin-top: 38px;
+  }
+  .txt_p {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.4px;
+    color: #0f1826;
+  }
+  .txt_all {
+    max-width: 433px;
+    height: 80px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.28px;
+    color: #607987;
+
+    margin-top: 16px;
+  }
+}
+
+@media screen and (max-width:730px) {
+  .all_cards{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+// bizning afazlliklar tugadi
+
+// Bizning kurslar boshlandi
+
+#our_courses {
+  background: #f9f8f7;
+  margin-top: 54px;
+
+  .facultet {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 56px;
+    letter-spacing: -0.64px;
+    color: #0f1826;
+    padding-top: 48px;
+  }
+  .title {
+    padding-top: 24px;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #607987;
+  }
+}

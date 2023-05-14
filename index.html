@@ -12,13 +12,40 @@
 </head>
 
 <body>
-    <header>
-        <div>
-            <nav class="container">
+    <header id="navbar">
+		<div class="container">
+			<div class="header">
+				<div class="hlogo">
+					<a href="#"><img class="logo" src="./images/logo.svg" alt="logo"></a>
+				</div>
+				<nav>
+					<div class="menu">
+						<a href="#">Kurslar</a>
+						<a href="#about">Blog</a>
+						<button class="secondary-btn">Kirish</button>
+                        <button class="dark-light">
+                            <img class="moon" src="./images/moon.svg" alt="moon" />
+                        </button>
+					</div>
+				</nav>
+				<div class="mobile">
+					<input type="checkbox" id="active">
+					<label for="active" class="menu_btn" id="menuBtn"><i class="fas fa-bars"></i></label>
+					<div class="header-container">
+						<ul class="mobile-menu">
+							<li><a href="#">home</a></li>
+							<li><a href="#about">about</a></li>
+							<li><a href="#popular">popular</a></li>
+							<li><a href="#form">contact</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+            <section id="intro">
 
-            </nav>
-        </div>
-    </header>
+            </section>
+		</div>
+	</header>
     <main>
 
         <section id="hero">
@@ -116,6 +143,29 @@
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="./slick-1.8.1/slick/slick.js"></script>
+    <script>
+        let elBtns = document.querySelector(".dark-light");
+        let theme = false;
+
+elBtns.addEventListener("click", (evt) => {
+  theme = !theme;
+  const newBg = theme ? "dark" : "light";
+  window.localStorage.setItem("theme", newBg);
+  newTheme();
+});
+
+let newTheme = () => {
+  if (window.localStorage.getItem("theme") == "dark") {
+    document.body.classList.add("dark");
+    elBtns.classList.add("btn")
+  } else {
+    document.body.classList.remove("dark");
+    elBtns.classList.remove("btn");
+  }
+};
+
+newTheme();
+    </script>
 </body>
 
 </html>

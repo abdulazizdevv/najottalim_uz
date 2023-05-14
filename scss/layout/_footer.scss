@@ -1,0 +1,326 @@
+footer {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background: #f9f8f7;
+  }
+  
+  .footer {
+    display: flex !important;
+    gap: 65px;
+  }
+  
+  .footer-left {
+    display: flex !important;
+    flex-direction: column;
+  
+    & .left-desc {
+      max-width: 249px;
+      line-height: 20px;
+      padding-top: 20px;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 22px;
+      color: #607987;
+      width: 100%;
+    }
+  
+    & .left-last-desc {
+      font-weight: 600;
+      line-height: 24px;
+      padding-top: 58px;
+      font-size: 14px;
+      line-height: 22px;
+      color: #607987;
+    }
+  }
+  
+  .footer-right {
+    display: flex !important;
+    flex-direction: column;
+  
+    &__top {
+      display: flex !important;
+      justify-content: space-between;
+    }
+  
+    &__bottom {
+      display: flex !important;
+      gap: 50px;
+      padding-top: 40px;
+    }
+  }
+  
+  .socials {
+    display: flex !important;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .links {
+    display: flex !important;
+    flex-direction: column;
+    gap: 15px;
+  
+    & h3 {
+      padding-bottom: 5px;
+      font-weight: 700;
+      font-size: 17px;
+      max-width: 240px;
+    }
+  }
+  
+  .social {
+    display: flex !important;
+    gap: 12px;
+  }
+  
+  .footer-right__bottom2 {
+    display: none;
+  }
+  
+  @media screen and (max-width: 930px) {
+    .footer {
+      flex-direction: column;
+    }
+    .footer-left {
+      flex-direction: row !important;
+      justify-content: space-between;
+    }
+    .footer-right__top {
+      flex-wrap: wrap !important;
+      justify-content: space-between;
+    }
+    .footer-right__bottom {
+      flex-wrap: wrap !important;
+      justify-content: center;
+    }
+    .social {
+      padding-bottom: 25px;
+    }
+  }
+  
+  .footer-right a {
+    text-decoration: none;
+    color: #607987;
+    font-weight: 500;
+    line-height: 22px;
+    font-size: 17px;
+  }
+  
+  .footer-right a:hover {
+    text-decoration: underline;
+  }
+  
+  .firstItem {
+    padding-top: 25px !important    ;
+  }
+  
+  // .links3 {
+  //   padding-right: 50px;
+  // }
+  
+  .links5 a {
+    max-width: 280px;
+  }
+  
+  .social__item {
+    padding: 10px;
+    padding-bottom: 5px;
+    background: #bd8f5b;
+    border-radius: 500px;
+    & img {
+      width: 15px;
+      height: 15px;
+    }
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .first:hover {
+    background: #55ace3;
+  }
+  .second:hover {
+    background: radial-gradient(
+      230.93% 230.93% at 102.01% 2.03%,
+      #f9ed32 0%,
+      #ee2a7b 36%,
+      #d22a8a 44%,
+      #8b2ab2 60%,
+      #1b2af0 83%,
+      #002aff 88%
+    );
+    $twitter-btn-bg: #bd8f5b;
+  }
+  
+  .third:hover {
+    background: #0b84ee;
+  }
+  .fourth:hover {
+    background: #48c95f;
+  }
+  
+  .df {
+    display: flex;
+    gap: 100px;
+  }
+  
+  .dropdown {
+    display: none;
+    & button {
+      display: flex;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 22px;
+      text-align: center;
+      color: #000000;
+      align-items: center;
+      justify-content: space-between;
+      border: none;
+      background: transparent;
+      cursor: pointer;
+      position: relative;
+    }
+  }
+  .drItem {
+    display: none;
+    & li {
+      padding-top: 20px;
+      font-size: 14px;
+    }
+  }
+  
+  .select {
+    padding: 18px 26px;
+    border: none !important;
+    background: #f9f8f7;
+    cursor: pointer;
+    &:focus {
+      border: none;
+      outline: none;
+    }
+    & .option {
+      background: #f9f8f7 !important;
+      border: none !important;
+      &:focus {
+        border: none !important;
+        outline: none !important;
+      }
+    }
+  }
+  
+  .activeDrop {
+    transform: rotate(180deg);
+  }
+  
+  @media screen and (max-width: 930px) {
+    .left-last-desc {
+      display: none;
+    }
+  
+    .left-desc {
+      max-width: 850px !important;
+    }
+  }
+  
+  @media screen and (max-width: 700px) {
+    .links1,
+    .links2,
+    .links3 {
+      display: none !important;
+    }
+    .dropdown {
+      display: block;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .footer-right__bottom {
+      display: none !important;
+    }
+    .footer-right__bottom2 {
+      display: block;
+    }
+    .bottomsecond1 {
+      display: flex !important;
+      justify-content: space-between;
+      padding-top: 30px;
+      flex-wrap: wrap;
+    }
+    .bottomsecond2 {
+      display: flex !important;
+      justify-content: space-between;
+      padding-top: 30px;
+      & h3 {
+        font-size: 16px;
+        max-width: 220px;
+      }
+      & a {
+        font-size: 14px;
+        max-width: 280px;
+      }
+    }
+    .bottomsecond3 {
+      display: block;
+      & p {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: -0.28px;
+        color: #607987;
+        padding-top: 30px;
+      }
+    }
+    .social__item {
+      padding: 7px !important;
+      padding-bottom: 1px !important;
+      background: #bd8f5b !important;
+      border-radius: 50% !important;
+      & img {
+        width: 15px !important;
+        height: 15px !important;
+      }
+    }
+  }
+  @media screen and (max-width: 620px) {
+    .df {
+      flex-direction: column;
+      gap: 20px !important;
+    }
+    .dropdown button{
+      width: 500px !important;
+    }
+  }
+  
+  @media screen and (max-width: 528px) {
+    .bottomsecond2 {
+      flex-direction: column;
+      gap: 20px;
+      & h3 {
+        min-width: 100%;
+      }
+      & a {
+        min-width: 100%;
+      }
+    }
+    .dropdown button{
+      width: 420px !important;
+    }
+  }
+  
+  @media screen and (max-width: 450px) {
+  
+      .dropdown button{
+        width: 350px !important;
+      }
+    }
+  @media screen and (max-width: 380px) {
+  
+      .dropdown button{
+        width: 300px !important;
+      }
+    }
+  @media screen and (max-width: 330px) {
+  
+      .dropdown button{
+        width: 250px !important;
+      }
+    }

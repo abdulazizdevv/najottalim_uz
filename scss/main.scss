@@ -1,54 +1,20 @@
-// @import url("./base/_reset.scss");
-// @import url("./base/_typography.scss");
-// @import url("./components/_buttons.scss");
-// @import url("./components/_carousel.scss");
-// @import url("./layout/_footer.scss");
-// @import url("./layout/_forms.scss");
-// @import url("./layout/_grid.scss");
-// @import url("./layout/_header.scss");
-// @import url("./themes/_theme.scss");
-// @import url("./utils/_mixins.scss");
-// @import url("./utils/_variables.scss");
-// @import url("./pages/_blogs.scss");
-// @import url("./pages/_courses.scss");
-// @import url("./pages/_home.scss");
+@use "./base/_reset.scss";
+@use "./base/_typography.scss";
+@use "./components/_buttons.scss";
+@use "./components/_carousel.scss";
+@use "./layout/_footer.scss";
+@use "./layout/_forms.scss";
+@use "./layout/_grid.scss";
+@use "./layout/_header.scss";
+@use "./themes/_theme.scss";
+@use "./utils/_mixins.scss";
+@use "./utils/_variables.scss";
+@use "./pages/_blogs.scss";
+@use "./pages/_courses.scss";
+@use "./pages/_home.scss";
 
 // ====================================================
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
 
-.container {
-  max-width: 1138px;
-  width: 100%;
-  padding: 0 20px;
-  margin: 0 auto;
-}
 
-@media screen and (max-width: 1024px) {
-  .container {
-    max-width: 1024px;
-    width: 100%;
-    padding: 0 32px;
-    margin: 0 auto;
-  }
-}
-@media screen and (max-width: 770px) {
-  .container {
-    max-width: 770px;
-    width: 100%;
-    padding: 0 20px;
-    margin: 0 auto;
-  }
-}
-@media screen and (max-width: 390px) {
-  .container {
-    max-width: 390px;
-    width: 100%;
-    padding: 0 16px;
-    margin: 0 auto;
-  }
-}
+// Bizning afzalliklarimiz boshlandi

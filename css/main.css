@@ -35,30 +35,6 @@
     margin: 0 auto;
   }
 }
-.lot_of {
-  display: flex;
-  gap: 11.8px;
-}
-.lot_of p {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 20px;
-  letter-spacing: -0.32px;
-  color: #0eb182;
-}
-
-.btn_view {
-  background-color: transparent;
-  border: none;
-}
-
-#our_pref .left_card {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-}
 @font-face {
   font-family: "Lato";
   src: url("../../fonts/Lato/Lato-Thin.ttf") format("truetype");
@@ -84,6 +60,312 @@
   src: url("../../fonts/Lato/Lato-Black.ttf") format("truetype");
   font-weight: 900;
 }
+.lot_of {
+  display: flex;
+  gap: 11.8px;
+}
+.lot_of p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.32px;
+  color: #0eb182;
+}
+
+.btn_view {
+  background-color: transparent;
+  border: none;
+}
+
+@media screen and (max-width: 935px) {
+  .lot_of {
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .lot_of {
+    margin-top: 90px;
+  }
+}
+.location {
+  display: flex;
+  align-items: center;
+  margin-top: 32px;
+  gap: 10px;
+}
+.location .prev_page {
+  width: auto;
+  height: 22px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #c4c4c4;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.location .active_page {
+  height: 22px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #ba8d5b;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.seach_bit {
+  margin-top: 32px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.seach_bit h2 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 56px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.64px;
+  color: #0f1826;
+}
+.seach_bit input {
+  background: #f7f7f5;
+  border-radius: 100px;
+  border: none;
+  padding: 15px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  width: 330px;
+  height: 48.39px;
+  color: #757575;
+  outline: none;
+}
+
+.searchs {
+  display: flex;
+  background: #f7f7f5;
+  width: 370px;
+  height: 48px;
+  border-radius: 100px;
+}
+
+.search_icon {
+  width: 15.53px;
+}
+
+.btnses {
+  display: flex;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.all_courses {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px 25.05px 16px 26px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  background: #bd8f5b;
+  border-radius: 32px;
+  cursor: pointer;
+}
+.all_courses:hover {
+  background: #f7f7f5;
+  color: #000;
+}
+.all_courses:active {
+  color: #ffffff;
+  border: none;
+  background: #bd8f5b;
+}
+
+.dasturlash {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px 25.22px 16px 26px;
+  border: none;
+  background: #f5f5f5;
+  border-radius: 32px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border: 1px solid transparent;
+  color: rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+}
+.dasturlash:hover {
+  border: 1px solid #ba8d5b;
+}
+
+.box_program {
+  width: 543.5px;
+  height: auto;
+  background: #f9f8f7;
+  border-radius: 4px;
+}
+.box_program .box_top {
+  padding: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 23px;
+  align-items: center;
+}
+.box_program .subject {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #ba8d5b;
+}
+.box_program .time {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #ba8d5b;
+}
+.box_program .box_btn {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 5px 12.91px 5px 12px;
+  width: 90.91px;
+  height: 28px;
+  background: #d1d1d1;
+  border-radius: 4px;
+  border: none;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  align-items: center;
+  color: #000000;
+}
+
+.text {
+  margin-left: 24px;
+}
+.text h3 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.56px;
+  color: #000000;
+}
+.text p {
+  width: 270px;
+  height: 120px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.28px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.all {
+  display: flex;
+}
+
+.all_boxes {
+  display: flex;
+  margin-top: 72px;
+  gap: 31px;
+}
+
+.block_btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.end {
+  margin-right: 24px;
+  display: none !important;
+}
+.end_bottom {
+  margin: 24px;
+  display: none;
+}
+
+@media screen and (max-width: 1075px) {
+  .all {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .end {
+    display: block !important;
+  }
+  .end_bottom {
+    display: block;
+  }
+  .box_top {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 735px) {
+  .all_boxes {
+    display: flex;
+    gap: 31px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+#our_pref .left_card {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
 #our_pref .txt {
   font-family: "Lato";
   font-style: normal;
@@ -107,6 +389,8 @@
   margin-top: 38px;
 }
 #our_pref .txt_p {
+  font-family: "Lato";
+  font-style: normal;
   font-weight: 600;
   font-size: 20px;
   line-height: 30px;
@@ -114,8 +398,10 @@
   color: #0f1826;
 }
 #our_pref .txt_all {
+  font-family: "Lato";
+  font-style: normal;
   max-width: 433px;
-  height: 80px;
+  height: auto;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
@@ -152,4 +438,305 @@
   font-size: 16px;
   line-height: 24px;
   color: #607987;
+}
+#our_courses .boxes {
+  margin-top: 24px;
+  display: flex;
+  gap: 35px;
+}
+#our_courses .programming {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px 17px 17px;
+  gap: 12px;
+  width: 254.5px;
+  height: 97px;
+  border: 1px solid #607987;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+#our_courses .programming:hover {
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transition: 0.3s;
+}
+#our_courses .programming .box_txt {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.4px;
+  color: #0f1826;
+}
+#our_courses .programming .box_txt_end {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.32px;
+  margin-top: 13px;
+  color: #607987;
+}
+#our_courses .view_alls {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  margin-top: 18px;
+  color: #0eb182;
+  padding-bottom: 51px;
+}
+
+@media screen and (max-width: 580px) {
+  .boxes {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .programming {
+    width: 100% !important;
+  }
+}
+#work_place .works_txt {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  margin-top: 48px;
+  color: #0f1826;
+}
+#work_place .works_txt_p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+  color: #607987;
+}
+#work_place .grid_works {
+  margin-top: 48px;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  row-gap: 31px;
+  padding-bottom: 88px;
+}
+#work_place .work_icons {
+  padding: 16px 12px;
+  width: 160px;
+  height: 100px;
+  left: 0px;
+  top: 0px;
+  cursor: pointer;
+  background: #f9f8f7;
+  border-radius: 8px;
+  filter: grayscale(100%);
+  transition: 0.5s;
+}
+#work_place .work_icons:hover {
+  background: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  filter: hue-rotate(0);
+  transition: 0.5s;
+}
+
+@media screen and (max-width: 1110px) {
+  .grid_works {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto !important;
+    row-gap: 31px;
+  }
+}
+@media screen and (max-width: 979px) {
+  .grid_works {
+    display: grid;
+    grid-template-columns: auto auto auto auto !important;
+    row-gap: 31px;
+  }
+}
+@media screen and (max-width: 746px) {
+  .grid_works {
+    display: grid;
+    grid-template-columns: auto auto auto !important;
+    row-gap: 31px;
+  }
+}
+@media screen and (max-width: 552px) {
+  .grid_works {
+    display: grid;
+    grid-template-columns: auto auto !important;
+    row-gap: 31px;
+  }
+}
+#form {
+  padding: 0 20px;
+}
+#form .left_img {
+  width: 100%;
+  background-image: url("../../images/formImg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  border-radius: 12px 0 0 12px;
+  max-width: 512px;
+  height: 632px;
+}
+#form .form_bg {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  max-width: 1118px;
+  height: 634.08px;
+  left: 401px;
+  top: 2686px;
+  background: #f9f8f7;
+  border-radius: 20px;
+}
+#form .form_bits {
+  max-width: 448px;
+  height: 570.08px;
+  margin: 32px;
+  background: #ffffff;
+  border-radius: 16px;
+}
+#form .form_bits_h2 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+  margin-top: 45px;
+  color: #0f1826;
+}
+#form .form_bits .faq {
+  max-width: 361px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0 auto;
+  color: #607987;
+  margin-top: 16px;
+}
+#form .form_bits .faq span {
+  display: inline-block;
+  color: #ba8d5b;
+  padding-right: 5px;
+}
+#form .form_bits form {
+  margin-top: 32px !important;
+  margin-left: 40px !important;
+}
+#form .form_bits form label {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.28px;
+  color: rgba(0, 0, 0, 0.35);
+}
+#form .form_bits form input {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 14px 17px;
+  outline: none;
+  width: 368px;
+  height: 45px;
+  background: #ffffff;
+  border: 1px solid #dadada;
+  border-radius: 100px;
+}
+#form .form_bits form input:focus {
+  border: 1px solid skyblue;
+}
+#form .form_bits form .phone_in {
+  margin-top: 16px;
+}
+#form .form_bits form .send {
+  margin-top: 32px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+  color: #000000;
+}
+#form .form_bits form .send span {
+  display: inline-block;
+  color: #ba8d5b;
+}
+#form .form_bits form .btn_send {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 13px 129.16px 13px 128.84px;
+  margin-top: 24px;
+  max-width: 368px;
+  height: 48px;
+  border: none;
+  color: #fff;
+  background: #ba8d5b;
+  border-radius: 100px;
+}
+
+@media screen and (max-width: 860px) {
+  .left_img {
+    display: none;
+  }
+}
+@media screen and (max-width: 545px) {
+  input {
+    max-width: 301px !important;
+    width: 100% !important;
+  }
+  .faq {
+    width: 300px;
+  }
+  .form_bits {
+    margin: 3px !important;
+  }
+  .btn_send {
+    max-width: 298px !important;
+  }
+}
+@media screen and (max-width: 545px) {
+  .faq {
+    margin-left: 45px !important;
+  }
+  .form_bits {
+    margin: 3px !important;
+  }
+  form {
+    margin-top: 12px !important;
+    margin-left: 10px !important;
+  }
+}
+a {
+  text-decoration: none;
 }/*# sourceMappingURL=main.css.map */
